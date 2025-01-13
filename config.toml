@@ -12,6 +12,10 @@
   [[module.mounts]]
     source = 'static'
     target = 'static'
-  [[module.mounts]]
-    source = 'contrib/js'
-    target = 'assets/js/modules/alwaysdark'
+  [[module.imports]]
+    path = "github.com/gethinode/mod-utils/v2"
+
+[params.modules.alwaysdark]
+  integration = 'core'
+  state = "async"
+  category = "necessary"

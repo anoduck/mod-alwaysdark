@@ -14,17 +14,17 @@
     <a href="https://gethinode.com" alt="Hinode theme">
         <img src="https://img.shields.io/badge/theme-hinode-blue">
     </a>
-    <a href="https://github.com/gethinode/mod-alwaysdark/commits/main" alt="Last commit">
-        <img src="https://img.shields.io/github/last-commit/gethinode/mod-alwaysdark.svg">
+    <a href="https://github.com/anoduck/mod-alwaysdark/commits/main" alt="Last commit">
+        <img src="https://img.shields.io/github/last-commit/anoduck/mod-alwaysdark.svg">
     </a>
-    <a href="https://github.com/gethinode/mod-alwaysdark/issues" alt="Issues">
-        <img src="https://img.shields.io/github/issues/gethinode/mod-alwaysdark.svg">
+    <a href="https://github.com/anoduck/mod-alwaysdark/issues" alt="Issues">
+        <img src="https://img.shields.io/github/issues/anoduck/mod-alwaysdark.svg">
     </a>
-    <a href="https://github.com/gethinode/mod-alwaysdark/pulls" alt="Pulls">
-        <img src="https://img.shields.io/github/issues-pr-raw/gethinode/mod-alwaysdark.svg">
+    <a href="https://github.com/anoduck/mod-alwaysdark/pulls" alt="Pulls">
+        <img src="https://img.shields.io/github/issues-pr-raw/anoduck/mod-alwaysdark.svg">
     </a>
-    <a href="https://github.com/gethinode/mod-alwaysdark/blob/main/LICENSE" alt="License">
-        <img src="https://img.shields.io/github/license/gethinode/mod-alwaysdark">
+    <a href="https://github.com/anoduck/mod-alwaysdark/blob/main/LICENSE" alt="License">
+        <img src="https://img.shields.io/github/license/anoduck/mod-alwaysdark">
     </a>
 </p>
 
@@ -38,12 +38,9 @@ Hinode is a clean blog theme for [Hugo][hugo], an open-source static site genera
 
 This module uses [semantic-release][semantic-release] to automate the release of new versions. The package uses `husky` and `commitlint` to ensure commit messages adhere to the [Conventional Commits][conventionalcommits] specification. You can run `npx git-cz` from the terminal to help prepare the commit message.
 
-<!-- ## Configuration
+## Configuration
 
-This module supports the following parameters (see the section `params.modules` in `config.toml`):
-
-| Setting                   | Default | Description |
-|---------------------------|---------|-------------| -->
+Nothing needs to be configured because this module does not need any parameters.
 
 <!-- MARKDOWN LINKS -->
 [hugo]: https://gohugo.io
