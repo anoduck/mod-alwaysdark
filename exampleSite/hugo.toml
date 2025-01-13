@@ -1,15 +1,11 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'Test site for mod-template'
+title = 'Test site for mod-alwaysdark'
 
 [module]
-  # Build and serve using local mod-template clone declared in the named Hugo workspace:
-  workspace = "mod-template.work"
+  # Build and serve using local mod-alwaysdark clone declared in the named Hugo workspace:
+  workspace = "mod-alwaysdark.work"
+  replacements = "github.com/anoduck/mod-alwaysdark -> ../.."
+  
   [[module.imports]]
-    path = "github.com/gethinode/mod-template"
-  [[module.imports.mounts]]
-    source = "dist"
-    target = "static"
-  [[module.imports.mounts]]
-    source = "layouts"
-    target = "layouts"
+    path = "github.com/anoduck/mod-alwaysdark"

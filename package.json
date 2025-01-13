@@ -1,6 +1,6 @@
 {
-  "name": "@gethinode/mod-template",
-  "version": "0.0.0",
+  "name": "@anoduck/mod-alwaysdark",
+  "version": "0.1.0",
   "description": "A template to define a Hugo module compatible with Hinode",
   "keywords": [
     "hugo",
@@ -21,19 +21,19 @@
     "mod:update": "rimraf _vendor && hugo mod get -u ./... && hugo mod get -u && npm run -s mod:vendor && npm run -s mod:tidy",
     "mod:tidy": "hugo mod tidy",
     "mod:vendor": "rimraf _vendor && hugo mod vendor",
-    "postinstall": "echo TODO: add postinstall instructions",
+    "postinstall": "echo There is nothing left to do.",
     "test": "npm run -s build",
     "upgrade": "npx npm-check-updates -u && npm run -s mod:update",
     "prepare": "node .husky/install.mjs"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gethinode/mod-template.git"
+    "url": "git+https://github.com/anoduck/mod-alwaysdark.git"
   },
-  "author": "Mark Dumay",
+  "author": "Anoduck, The Anonymous Duck",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gethinode/hinode/issues"
+    "url": "https://github.com/anoduck/mod-alwaysdark/issues"
   },
   "homepage": "https://gethinode.com",
   "devDependencies": {
