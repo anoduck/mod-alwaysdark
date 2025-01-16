@@ -1,5 +1,8 @@
-document.addEventListener('DomContentLoaded', function () {
-    //javascript goes here.
+(() => {
+//javascript goes here.
+    const theme = 'dark';
+    const getStoredTheme = () => localStorage.getItem('theme');
+    const storedTheme = getStoredTheme();
 
     function hideToggle() {
         var modeToggle = document.querySelector('li.mode-switch');
@@ -10,18 +13,13 @@ document.addEventListener('DomContentLoaded', function () {
         modeToggle.className = 'hide';
     }
 
-    const theme = 'dark';
-
-    const getStoredTheme = () => localStorage.getItem('theme')
-    const setStoredTheme = theme => localStorage.setItem('theme', theme)
-
-    function setTheme(theme) {
+    function setTheme (theme) {
+        localStorage.setItem('theme', theme)
         document.documentElement.setAttribute('data-bs-theme', theme)
     };
 
-    const storedTheme = getStoredTheme();
-    if (storedTheme !== 'light' && storedTheme !== 'dark') {
+    if (storedTheme !== 'dark') {
         setTheme(theme)
         hideToggle();
     };
-});
+})();
