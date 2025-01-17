@@ -32,15 +32,31 @@
 
 ![Logo](https://raw.githubusercontent.com/gethinode/hinode/main/static/img/logo.png)
 
-Hinode is a clean blog theme for [Hugo][hugo], an open-source static site generator. Hinode is available as a [template][repository_template], and a [main theme][repository]. <!-- This repository maintains a Hugo module to add [module][module] to a Hinode site. --> Visit the Hinode documentation site for [installation instructions][hinode_docs].
+Hinode is a clean blog theme for [Hugo][hugo], an open-source static site generator. Hinode is available as a
+[template][repository_template], and a [main theme][repository]. <!-- This repository maintains a Hugo module to add
+[module][module] to a Hinode site. --> Visit the Hinode documentation site for [installation instructions][hinode_docs].
+
+>[!WARNING]
+> This module is currently in development and is a work in progress. It does not work, and should not be used at this
+> moment.
+
+### Mod-AlwaysDark
+
+Hinode is pretty incredible as it is, and as we all know, allows users to choose between viewing the website in either
+dark or light mode. But, what if you wanted to force your website to remain in dark mode permanently? You would either
+have to tinker with hinode's sass configuration and create your own color scheme, or you would have to run a little
+javascript in the background and allow javascript to toggle on the dark mode feature for you every time. We preferred
+the latter choice, so we hacked away and created a module to do this.
 
 ## Contributing
 
-This module uses [semantic-release][semantic-release] to automate the release of new versions. The package uses `husky` and `commitlint` to ensure commit messages adhere to the [Conventional Commits][conventionalcommits] specification. You can run `npx git-cz` from the terminal to help prepare the commit message.
+This module uses [semantic-release][semantic-release] to automate the release of new versions. The package uses `husky`
+and `commitlint` to ensure commit messages adhere to the [Conventional Commits] [conventionalcommits] specification. You
+can run `npx git-cz` from the terminal to help prepare the commit message.
 
 ## Configuration
 
-Nothing needs to be configured because this module does not need any parameters.
+You will need to have dark mode enabled in `config/_default/params.toml` by setting `enableDarkMode = true`.
 
 <!-- MARKDOWN LINKS -->
 [hugo]: https://gohugo.io
