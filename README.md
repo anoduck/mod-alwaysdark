@@ -36,9 +36,6 @@ Hinode is a clean blog theme for [Hugo][hugo], an open-source static site genera
 [template][repository_template], and a [main theme][repository]. <!-- This repository maintains a Hugo module to add
 [module][module] to a Hinode site. --> Visit the Hinode documentation site for [installation instructions][hinode_docs].
 
->[!WARNING]
-> This module is currently in development and is a work in progress. It does not work, and should not be used at this
-> moment.
 
 ### Mod-AlwaysDark
 
