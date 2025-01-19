@@ -1,6 +1,6 @@
 {
   "name": "@anoduck/mod-alwaysdark",
-  "version": "0.1.0",
+  "version": "0.0.2",
   "description": "A template to define a Hugo module compatible with Hinode",
   "keywords": [
     "hugo",
@@ -21,7 +21,6 @@
     "mod:update": "rimraf _vendor && hugo mod get -u ./... && hugo mod get -u && npm run -s mod:vendor && npm run -s mod:tidy",
     "mod:tidy": "hugo mod tidy",
     "mod:vendor": "rimraf _vendor && hugo mod vendor",
-    "postinstall": "echo There is nothing left to do.",
     "test": "npm run -s build",
     "upgrade": "npx npm-check-updates -u && npm run -s mod:update",
     "prepare": "node .husky/install.mjs"
@@ -40,7 +39,7 @@
     "@commitlint/cli": "^19.6.1",
     "@commitlint/config-conventional": "^19.6.0",
     "@semantic-release/exec": "^6.0.3",
-    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/git": "^10.0.2",
     "commitizen": "^4.3.1",
     "cpy-cli": "^5.0.0",
     "cz-conventional-changelog": "^3.3.0",

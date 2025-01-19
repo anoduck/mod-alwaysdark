@@ -14,17 +14,17 @@
     <a href="https://gethinode.com" alt="Hinode theme">
         <img src="https://img.shields.io/badge/theme-hinode-blue">
     </a>
-    <a href="https://github.com/gethinode/mod-alwaysdark/commits/main" alt="Last commit">
-        <img src="https://img.shields.io/github/last-commit/gethinode/mod-alwaysdark.svg">
+    <a href="https://github.com/anoduck/mod-alwaysdark/commits/main" alt="Last commit">
+        <img src="https://img.shields.io/github/last-commit/anoduck/mod-alwaysdark.svg">
     </a>
-    <a href="https://github.com/gethinode/mod-alwaysdark/issues" alt="Issues">
-        <img src="https://img.shields.io/github/issues/gethinode/mod-alwaysdark.svg">
+    <a href="https://github.com/anoduck/mod-alwaysdark/issues" alt="Issues">
+        <img src="https://img.shields.io/github/issues/anoduck/mod-alwaysdark.svg">
     </a>
-    <a href="https://github.com/gethinode/mod-alwaysdark/pulls" alt="Pulls">
-        <img src="https://img.shields.io/github/issues-pr-raw/gethinode/mod-alwaysdark.svg">
+    <a href="https://github.com/anoduck/mod-alwaysdark/pulls" alt="Pulls">
+        <img src="https://img.shields.io/github/issues-pr-raw/anoduck/mod-alwaysdark.svg">
     </a>
-    <a href="https://github.com/gethinode/mod-alwaysdark/blob/main/LICENSE" alt="License">
-        <img src="https://img.shields.io/github/license/gethinode/mod-alwaysdark">
+    <a href="https://github.com/anoduck/mod-alwaysdark/blob/main/LICENSE" alt="License">
+        <img src="https://img.shields.io/github/license/anoduck/mod-alwaysdark">
     </a>
 </p>
 
@@ -32,18 +32,31 @@
 
 ![Logo](https://raw.githubusercontent.com/gethinode/hinode/main/static/img/logo.png)
 
-Hinode is a clean blog theme for [Hugo][hugo], an open-source static site generator. Hinode is available as a [template][repository_template], and a [main theme][repository]. <!-- This repository maintains a Hugo module to add [module][module] to a Hinode site. --> Visit the Hinode documentation site for [installation instructions][hinode_docs].
+Hinode is a clean blog theme for [Hugo][hugo], an open-source static site generator. Hinode is available as a
+[template][repository_template], and a [main theme][repository]. <!-- This repository maintains a Hugo module to add
+[module][module] to a Hinode site. --> Visit the Hinode documentation site for [installation instructions][hinode_docs].
+
+>[!WARNING]
+> This module is currently in development and is a work in progress. It does not work, and should not be used at this
+> moment.
+
+### Mod-AlwaysDark
+
+Hinode is pretty incredible as it is, and as we all know, allows users to choose between viewing the website in either
+dark or light mode. But, what if you wanted to force your website to remain in dark mode permanently? You would either
+have to tinker with hinode's sass configuration and create your own color scheme, or you would have to run a little
+javascript in the background and allow javascript to toggle on the dark mode feature for you every time. We preferred
+the latter choice, so we hacked away and created a module to do this.
 
 ## Contributing
 
-This module uses [semantic-release][semantic-release] to automate the release of new versions. The package uses `husky` and `commitlint` to ensure commit messages adhere to the [Conventional Commits][conventionalcommits] specification. You can run `npx git-cz` from the terminal to help prepare the commit message.
+This module uses [semantic-release][semantic-release] to automate the release of new versions. The package uses `husky`
+and `commitlint` to ensure commit messages adhere to the [Conventional Commits] [conventionalcommits] specification. You
+can run `npx git-cz` from the terminal to help prepare the commit message.
 
-<!-- ## Configuration
+## Configuration
 
-This module supports the following parameters (see the section `params.modules` in `config.toml`):
-
-| Setting                   | Default | Description |
-|---------------------------|---------|-------------| -->
+You will need to have dark mode enabled in `config/_default/params.toml` by setting `enableDarkMode = true`.
 
 <!-- MARKDOWN LINKS -->
 [hugo]: https://gohugo.io

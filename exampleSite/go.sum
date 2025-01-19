@@ -98,3 +98,9 @@ github.com/anoduck/mod-alwaysdark v0.0.0-20250111030626-6bee1c422cd0 h1:jyj2aKNX
 github.com/anoduck/mod-alwaysdark v0.0.0-20250111030626-6bee1c422cd0/go.mod h1:6ofWqxiQMhTnI8U6mT3FrEUN1UZ0vcUcZyXVIny2CZs=
 github.com/anoduck/mod-alwaysdark v0.0.0-20250112031057-b5e14e7024be h1:ADg4vQC7sHCtNrlxs8Y/10CoFaB0nuwzKLsg4QDsg6s=
 github.com/anoduck/mod-alwaysdark v0.0.0-20250112031057-b5e14e7024be/go.mod h1:6ofWqxiQMhTnI8U6mT3FrEUN1UZ0vcUcZyXVIny2CZs=
+github.com/anoduck/mod-alwaysdark v0.0.1 h1:IkKiA87CTr31i5GmMcTdz0fEqw7f+yeOuSaAsxkzYkU=
+github.com/anoduck/mod-alwaysdark v0.0.1/go.mod h1:HYKHxo6C32UpTX/08F38baDZWIahPVxcJIZv0bHsuoU=
+github.com/gethinode/mod-utils/v2 v2.8.6 h1:gtTtL37YPq1n/POIzbj40aYOg1VaZq8IjqwSf2V5yo0=
+github.com/gethinode/mod-utils/v2 v2.8.6/go.mod h1:GTYeknoLujNjfDxI+V9Dcug26CYJSTJ0B/U2dagw9oY=
+github.com/gethinode/mod-utils/v2 v2.9.0 h1:IGaYO+DNo7CcplyAUJASP1sf10/EqiG8sVVM1Q4SJKc=
+github.com/gethinode/mod-utils/v2 v2.9.0/go.mod h1:GTYeknoLujNjfDxI+V9Dcug26CYJSTJ0B/U2dagw9oY=
