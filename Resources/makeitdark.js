@@ -22,4 +22,15 @@
         setTheme(theme)
         hideToggle();
     };
+
+    function toggleTheme(theme) {
+        var selector = document.querySelector('.navbar-mode-selector');
+        var curTheme = selector.getAttribute('data-bs-theme-animate');
+        window.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.navbar-mode-selector').forEach(chk => {
+
+            })
+        })
+    }
+
 })();

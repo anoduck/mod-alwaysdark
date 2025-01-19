@@ -7,14 +7,9 @@
     min = "0.110.0"
     max = ""
   [[module.mounts]]
-    source = 'contrib/js'
-    target = 'assets/js/modules/alwaysdark'
-    includeFiles = "*.js"
-  [[module.mounts]]
     source = 'assets'
     target = 'assets'
-  [[module.imports]]
-    path = "github.com/gethinode/mod-utils/v2"
 
 [params.modules.alwaysdark]
-  integration = "core"
+  integration = "critical"
+  state = "defer"

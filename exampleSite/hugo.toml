@@ -12,6 +12,6 @@ title = 'Test site for mod-alwaysdark'
   # Build and serve using local mod-alwaysdark clone declared in the named Hugo workspace:
   workspace = "mod-alwaysdark.work"
   replacements = "github.com/anoduck/mod-alwaysdark -> ../.."
-  
+
   [[module.imports]]
     path = "github.com/anoduck/mod-alwaysdark"

@@ -4,21 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0">
   <title>{{ with .Title }}{{ printf "%s | " . }}{{ end }}{{ site.Title }}</title>
-  <link rel=stylesheet href="style.css">
 </head>
 <body>
 {{ block "main" . }}
 
 {{ end }}
-
-<div id="mode-indicator"></div>
-
 {{- partial "footer/scripts.html" -}}
-<script>
-  var modIndicate = document.getElementById('mode-indicator');
-  var theme = localStorage.getItem('theme');
-  console.log('Your theme is set to: ' + theme);
-  modIndicate.innerHTML += 'Your color mode is set to: ' + theme;
-</script>
 </body>
 </html>
