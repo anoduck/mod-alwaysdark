@@ -1,12 +1,6 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const theme = 'dark'
-    const storedTheme = () => localStorage.getItem('theme');
-    var checkbox = document.querySelector('input.navbar-mode-selector');
-
-    if (checkbox !== null) {
-        while (storedTheme() !== theme) {
-            checkbox.click()
-            window.reload()
-        }
-    }
+document.addEventListener("load", function() {
+    const theme = 'dark';
+    localStorage.setItem('theme', theme);
+    document.documentElement.setAttribute('data-bs-theme', theme);
+    document.getElementById('navbar-mode-checkbox').style.display = 'none';
 });
