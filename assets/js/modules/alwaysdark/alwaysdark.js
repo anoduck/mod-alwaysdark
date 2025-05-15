@@ -1,6 +1,7 @@
 document.addEventListener("load", function() {
     const theme = 'dark';
     localStorage.setItem('theme', theme);
-    document.documentElement.setAttribute('data-bs-theme', theme);
+    const html = document.querySelector("html");
+    html.setAttribute("data-bs-theme", "dark");
     document.getElementsByClassName('mode-switch').style.display = 'none';
 });
