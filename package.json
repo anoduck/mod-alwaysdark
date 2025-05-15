@@ -1,6 +1,6 @@
 {
   "name": "@anoduck/mod-alwaysdark",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A template to define a Hugo module compatible with Hinode",
   "keywords": [
     "hugo",
